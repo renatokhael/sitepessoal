@@ -34,7 +34,7 @@ const projects = [
   {
     id: 5,
     name: "Gaming Loop",
-    description: "Aplicação de presença para grupo Kroton.",
+    description: "Conceito de interface de usuário para games.",
     image: "/projects/gamingloop.png",
     url: "https://gaming-loop-dashboard.vercel.app/",
   },

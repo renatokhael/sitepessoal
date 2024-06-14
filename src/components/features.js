@@ -4,25 +4,25 @@ const featuresDetails = [
   {
     id: 1,
     title: "Projetos",
-    description: "Temporizador que usa a teoria Pomodoro.",
+    description: "Conheça alguns dos meus projetos pessoais.",
     url: "/projects",
   },
   {
     id: 2,
     title: "Sobre",
-    description: "Temporizador que usa a teoria Pomodoro.",
+    description: "Saiba mais sobre mim, como iniciei na programação.",
     url: "/about",
   },
   {
     id: 1,
     title: "Experiências",
-    description: "Temporizador que usa a teoria Pomodoro.",
+    description: "Acompanhe minha trajetória profissional até aqui.",
     url: "/experience",
   },
   {
     id: 1,
     title: "Blog",
-    description: "Temporizador que usa a teoria Pomodoro.",
+    description: "Postagens sobre programação e tecnologia.",
     url: "/blog",
   },
 ];
@@ -33,7 +33,7 @@ export function Features() {
       {featuresDetails.map((feature) => (
         <Link
           href={feature.url}
-          className="group rounded-2xl border border-zinc-900 p-8 transition-colors hover:bg-zinc-950 "
+          className="group rounded-2xl border border-zinc-900 p-6 transition-colors hover:bg-zinc-950 "
         >
           <h2
             className={`mb-3 text-2xl font-semibold tracking-tighter text-zinc-200 `}
