@@ -72,7 +72,7 @@ function Card({ name, description, image, url }) {
 
 export default function Projects() {
   return (
-    <div className="container mx-auto grid grid-cols-4 gap-4 mt-16 ">
+    <div className="container mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-16 ">
       {projects.map((project, index) => (
         <Card
           name={project.name}

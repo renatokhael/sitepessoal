@@ -17,7 +17,7 @@ export function Header() {
         </Link>
       </div>
 
-      <div className="w-1/3 flex items-center justify-center">
+      <div className="w-1/3 hidden lg:flex items-center justify-center">
         <div className="flex gap-4">
           <Link href="https://www.linkedin.com/in/rbarbosam/">
             <FaLinkedin color="#848484" size={24} />
@@ -34,7 +34,7 @@ export function Header() {
         </div>
       </div>
 
-      <div className="w-1/3 flex items-center justify-center">
+      <div className="w-1/3 hidden lg:flex items-center justify-center">
         <Link
           className="text-lime-200 border border-zinc-800 px-10 py-3 rounded-xl font-semibold hover:border-zinc-700 hover:bg-zinc-950"
           href="/contact"

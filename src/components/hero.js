@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <div className="relative flex flex-col place-items-center  z-[-1]  ">
+    <div className="relative flex flex-col place-items-center z-[-1] py-16  ">
       <h1 className="text-zinc-200 text-5xl text-center tracking-tighter font-bold">
         Olá! Me chamo Renato Khael. <br />
         Sou um <span className="text-lime-300">Front-End Developer</span>

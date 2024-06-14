@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section className="grid grid-cols-2">
-      <div>
+    <section className="grid lg:grid-cols-2 py-16">
+      <div className="container">
         <h1 className="text-zinc-200 text-4xl font-semibold">Sobre</h1>
 
         <p className="text-zinc-500 text-xl mt-5 tracking-tighter font-medium ">
@@ -50,6 +50,7 @@ export default function Projects() {
           width={500}
           height={300}
           priority
+          className="py-10"
         />
       </div>
     </section>

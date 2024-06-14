@@ -59,7 +59,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="container mx-auto grid grid-cols-2 gap-4 mt-16">
+    <section className="container mx-auto grid lg:grid-cols-2 gap-4 mt-16">
       {experiences.map((experience) => (
         <div key={experience.id} className="bg-zinc-950 p-10 rounded-2xl">
           <div className="flex flex-row">
