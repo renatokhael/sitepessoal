@@ -9,6 +9,7 @@ const projects = [
     description: "Temporizador que usa a técnica Pomodoro.",
     image: "/projects/devfocus.png",
     url: "https://devfocus-app.vercel.app/",
+    techs: ["HTML", "CSS", "JavaScript", "Pomodoro"],
   },
   {
     id: 2,
@@ -72,16 +73,81 @@ function Card({ name, description, image, url }) {
 
 export default function Projects() {
   return (
-    <div className="container mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-16 ">
-      {projects.map((project, index) => (
-        <Card
-          name={project.name}
-          description={project.description}
-          image={project.image}
-          url={project.url}
-          key={index}
-        />
-      ))}
-    </div>
+    <section className="mt-16 container mx-auto ">
+      <div className="bg-zinc-950 p-10 rounded-2xl w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2">
+          <div className="p-0 sm:p-10">
+            <Image
+              src="/kingweb.svg"
+              alt="Vercel Logo"
+              width={250}
+              height={24}
+              priority
+              className="rounded-t-2xl"
+            />
+            <h1 className="text-2xl font-semibold tracking-tighter text-zinc-300">
+              Kingweb - Criação de sites
+            </h1>
+            <p className=" text-lg font-medium text-gray-400 tracking-tighter mt-4 mb-5">
+              Tenho uma agência focada em criação de sites. Com minha expertise,
+              ajudo empresas e negócios a alcançarem seus objetivos. Focando em
+              conversão e SEO. Atualmente, mais de 15 clientes confiam no meu
+              trabalho.
+            </p>
+            <Link
+              href="https://kingweb.agency/"
+              className="text-white font-bold"
+            >
+              Conheça o projeto -&gt;
+            </Link>
+          </div>
+          <div className="p-0 sm:p-10">
+            <Image
+              src="/listacar.svg"
+              alt="Vercel Logo"
+              width={350}
+              height={24}
+              priority
+              className="rounded-t-2xl"
+            />
+            <h1 className="text-2xl font-semibold tracking-tighter text-zinc-300">
+              ListaCar - Catálogo de veículos online
+            </h1>
+            <p className=" text-lg font-medium text-gray-400 tracking-tighter mt-4 mb-5">
+              Sou Co-Fundador da ListaCar. Estamos transformando a maneira como
+              lojistas e concessionárias vendem seus veículos. Com nosso portal
+              de catálogo de veículos online, visamos aumentar a visibilidade e
+              atrair novos clientes de forma mais eficaz
+            </p>
+            <Link
+              href="https://listacar.com.br/"
+              className="text-white font-bold"
+            >
+              Conheça o projeto -&gt;
+            </Link>
+          </div>
+        </div>
+      </div>
+      <h1 className="text-2xl font-semibold tracking-tighter text-zinc-300 mt-16">
+        Projetos de código aberto!
+      </h1>
+      <p className=" text-lg font-medium text-gray-400 tracking-tighter mt-4">
+        Alguns projetos abertos do meu github, usando apenas HTML, CSS e
+        JavaScript puro (VanillaJS). Infelizmente grande parte dos meus projetos
+        são trabalhos privados, mas sempre que eu puder compartilhar algo, vou
+        colocar aqui.
+      </p>
+      <div className="container mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 ">
+        {projects.map((project, index) => (
+          <Card
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            url={project.url}
+            key={index}
+          />
+        ))}
+      </div>
+    </section>
   );
 }
