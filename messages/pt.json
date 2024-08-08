@@ -1,0 +1,64 @@
+{
+  "Hero": {
+    "span-text": "Disponível para novos trabalhos",
+    "title": "Engenheiro de software que ama UI/UX design",
+    "description": "Combinando design e programação. Crio produtos web para negócios.",
+    "btn-primary": "Saiba mais",
+    "btn-secondary": "Ver meu portfólio"
+  },
+
+  "Features": [
+    {
+      "title": "Portfóllio",
+      "description": "Conheça alguns de meus projetos."
+    },
+
+    {
+      "title": "Sobre ",
+      "description": "Conheça um pouco da minha história."
+    },
+
+    {
+      "title": "Stack",
+      "description": "Tecnologias que eu utilizo."
+    },
+
+    {
+      "title": "Experiência",
+      "description": "Minhas experiências profissionais."
+    }
+  ],
+
+  "About": {
+    "title": "Criação de Experiências Digitais Inovadoras",
+    "sub-title": "Aprimorando a Navegação com Design Intuitivo",
+    "description": "Forneço soluções web que aumentam o relacionamento entre você e seus clientes. No momento trabalho como freelancer. Localizado em Colônia. Se você estiver por perto, vamos tomar um café!"
+  },
+  "Portfolio": {
+    "title": "Serviços de desenvolvimento web e UX/UI Design",
+    "sub-title": "Transformando Visões em Realidade Digital",
+    "description": "Conheça a minha agência especializada em desenvolvimento de websites, landing pages, e-commerce. Design de interface do usuário de alto padrão. Confira alguns dos projetos que tive o prazer de desenvolver."
+  },
+
+  "Cta": {
+    "title": "Transforme sua visão em realidade digital",
+    "sub-title": "Vamos criar algo extraordinário juntos!",
+    "description": "Está pronto para levar sua presença digital ao próximo nível? Como especialista em UX/UI Design e desenvolvimento frontend, estou aqui para transformar suas ideias em experiências de usuário memoráveis. Juntos, podemos criar um site ou aplicação que não só atenda às necessidades dos seus usuários, mas também surpreenda e encante.",
+    "button": "Me Contrate"
+  },
+
+  "Contact": {
+    "title": "Contato",
+    "description": "Precisa de ajuda? Tem alguma sugestão ou falha no site? Envie-me uma mensagem. Eu estarei disponível para responder em breve!"
+  },
+
+  "AboutPage": {
+    "title": "Engenheiro de software apaixonado por UX/UI Design",
+    "sub-title": "Aprimorando a Navegação com Design Intuitivo",
+    "description": "Engenheiro de Software com foco em Frontend e UX/UI, combinando habilidades de design com um sólido conhecimento técnico. Com mais de 10 anos de experiência em HTML5, CSS3, JavaScript e mais de 5 anos trabalhando com React, Vue.js e TypeScript, estou posicionado de forma única para integrar design e desenvolvimento, criando aplicações performáticas e escaláveis focadas no usuário."
+  },
+
+  "PortfolioPage": {
+    "title": "Alguns de meus projetos abertodisponíveis no GitHub"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "Hero": {
+    "span-text": "Available for new work",
+    "title": "Software Engineer passionate about UX/UI Design.",
+    "description": "Combining design and programming. I create web products for businesses.",
+    "btn-primary": "Know more",
+    "btn-secondary": "See my portfolio"
+  },
+
+  "Features": [
+    {
+      "title": "Portfolio",
+      "description": "Discover some of my projects."
+    },
+
+    {
+      "title": "About",
+      "description": "Learn a little more about me."
+    },
+
+    {
+      "title": "Stack",
+      "description": "Discover the technologies I use."
+    },
+
+    {
+      "title": "Experience",
+      "description": "Learn about my experiences."
+    }
+  ],
+
+  "About": {
+    "title": "Creating Innovative Digital Experiences",
+    "sub-title": "Enhancing Navigation with Intuitive Design",
+    "description": "I provide web solutions that grow the relationship between you and your customers. At the moment, I work as a freelancer. Located in Cologne. If you're near, let's get coffee!"
+  },
+
+  "Portfolio": {
+    "title": "Web Development and UX/UI Design Services",
+    "sub-title": "Transforming Visions into Digital Reality",
+    "description": "Meet my agency specializing in website development, landing pages, e-commerce. High standard UI design. Check out some of the projects I had the pleasure of developing."
+  },
+  "Cta": {
+    "title": "Turn your vision into digital reality",
+    "sub-title": "Let's create something extraordinary together!",
+    "description": "Are you ready to take your digital presence to the next level? As a specialist in UX/UI Design and frontend development, I'm here to turn your ideas into memorable user experiences. Together, we can create a website or application that not only meets your users' needs, but also surprises and delights.",
+    "button": "Hire Me"
+  },
+
+  "Contact": {
+    "title": "Contact",
+    "description": "Need help? Have a suggestion or a problem? Send me a message. I'll get back to you as soon as possible!"
+  },
+  "AboutPage": {
+    "title": "Software engineer passionate about UX/UI Design",
+    "sub-title": "Aprimorando a Navegação com Design Intuitivo",
+    "description": "Software Engineer with a focus on Frontend and UX/UI, combining design skills with solid technical knowledge. With over 10 years of experience in HTML5, CSS3, and JavaScript, and more than 5 years working with React, Vue.js, and TypeScript, I am uniquely positioned to integrate design and development, creating high-performing and scalable user-focused applications."
+  }
+}
