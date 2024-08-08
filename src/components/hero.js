@@ -8,14 +8,14 @@ export function Hero() {
   const t = useTranslations("Hero");
   return (
     <section className="relative min-h-[500px]">
-      <Image
+      {/* <Image
         src="/hero/hero-bg.png"
         alt="Hero Background"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
         className="opacity-10"
-      />
+      /> */}
       <div className="relative container mx-auto h-[500px] flex justify-center items-center">
         <div className="flex flex-col items-center">
           <AlertTop />
