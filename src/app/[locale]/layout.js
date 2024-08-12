@@ -1,10 +1,9 @@
-import { Poppins } from "next/font/google";
+import { Fira_Code } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import Footer from "@/components/footer";
-import Contact from "@/components/contact";
 
-const poppins = Poppins({
+const fira = Fira_Code({
   subsets: ["latin"],
   weight: ["400", "700"], // Adicione os pesos que você precisa aqui
 });
@@ -13,7 +12,7 @@ const locales = ["en", "pt"];
 
 export const metadata = {
   title: "Renato Khael",
-  description: "Desenvolvedor Front-End",
+  description: "Brazilian Web Developer and Frontend",
 };
 
 export default function RootLayout({ children, params: { locale } }) {
@@ -23,11 +22,14 @@ export default function RootLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body className={poppins.className}>
+      <head>
+        <link rel="icon" href="/icon.png" sizes="any" />
+      </head>
+      <body className={fira.className}>
         <main className="bg-[#00292E]  min-h-screen ">
           <Header />
           {children}
-          <Contact />
+
           <Footer />
         </main>
       </body>

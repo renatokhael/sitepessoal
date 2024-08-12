@@ -1,50 +1,66 @@
 import { Link } from "@/navigation";
 import Image from "next/image";
-
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 import LanguageToggle from "./languageToggle";
 
 export function Header() {
-  return (
-    <header className="flex mx-auto py-5 border-b-2 border-[#003339]">
-      <div className=" w-1/3 flex items-center justify-center">
-        <Link href="/">
-          <Image
-            src="/logo.svg"
-            alt="Logo Renato Khael"
-            width={48}
-            height={48}
-            priority
-          />
-        </Link>
-      </div>
+  const t = useTranslations("Menu");
+  const menu = [
+    {
+      name: t("about"),
+      href: "/about",
+    },
 
-      <div className="w-1/3 hidden lg:flex items-center justify-center">
-        <div className="flex gap-4">
-          <Link href="https://www.linkedin.com/in/rbarbosam/">
-            <FaLinkedin color="#9FF9CC" size={24} />
-          </Link>
-          <Link href="https://github.com/renatokhael">
-            <FaGithub color="#9FF9CC" size={24} />
-          </Link>
-          <Link href="https://x.com/renatokhael_dev">
-            <FaTwitter color="#9FF9CC" size={24} />
-          </Link>
-          <Link href="https://www.instagram.com/khael.code/">
-            <FaInstagram color="#9FF9CC" size={24} />
+    {
+      name: t("experience"),
+      href: "/about",
+    },
+    {
+      name: t("projects"),
+      href: "/projects",
+    },
+
+    {
+      name: t("setup"),
+      href: "/about",
+    },
+  ];
+
+  return (
+    <header className="fixed w-full py-5 px-5 border-b-2 bg-[#00292E] border-[#003339] ">
+      <div className="container mx-auto grid grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex justify-start items-center ">
+          <Link href="/">
+            <Image
+              src="/logo.svg"
+              alt="Logo Renato Khael"
+              width={48}
+              height={48}
+              priority
+            />
           </Link>
         </div>
-      </div>
 
-      <div className="w-1/3 hidden lg:flex items-center justify-center">
-        <Link className="text-zinc-400 mx-2 font-bold" href="/projects">
-          Portfolio
-        </Link>
-        <Link className="text-zinc-400 mx-2 font-bold" href="/about">
-          Sobre
-        </Link>
+        <div className="hidden lg:flex justify-center items-center">
+          <nav>
+            <ul className="flex gap-5">
+              {menu.map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.href}
+                    className="text-zinc-300 text-sm hover:text-orange hover:font-bold"
+                  >
+                    <span className="text-orange ">#</span> {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
 
-        <LanguageToggle />
+        <div className="flex justify-end items-center">
+          <LanguageToggle />
+        </div>
       </div>
     </header>
   );

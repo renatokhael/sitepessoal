@@ -1,10 +1,15 @@
 {
+  "Menu": {
+    "about": "sobre",
+    "experience": "experiência",
+    "projects": "projetos",
+    "setup": "setup"
+  },
+
   "Hero": {
-    "span-text": "Disponível para novos trabalhos",
-    "title": "Engenheiro de software que ama UI/UX design",
-    "description": "Combinando design e programação. Crio produtos web para negócios.",
-    "btn-primary": "Saiba mais",
-    "btn-secondary": "Ver meu portfólio"
+    "title": "Eu sou um Desenvolvedor Web e Engenheiro FrontEnd (Brasileiro)",
+    "description": "Há mais de 10 anos combinando design e programação para transformar ideias em produtos digitais inovadores.",
+    "button": "Apresentação"
   },
 
   "Features": [
@@ -30,9 +35,11 @@
   ],
 
   "About": {
-    "title": "Criação de Experiências Digitais Inovadoras",
-    "sub-title": "Especialista em Interfaces de Usuários",
-    "description": "Combino habilidades de design com um sólido conhecimento técnico. Com mais de 10 anos de experiência em HTML5, CSS3, JavaScript e mais de 5 anos trabalhando com React, Vue.js e TypeScript, estou posicionado de forma única para integrar design e desenvolvimento, criando aplicações performáticas e escaláveis focadas no usuário."
+    "section": "sobre",
+    "title": "Olá! Me chamo Renato Khael",
+
+    "description": "Trabalho com HTML5, CSS3 e JavaScript desde 2010 e, nos últimos 5 anos, tenho me especializado em React, Vue.js e TypeScript. Essa experiência me permite integrar design e desenvolvimento para criar aplicativos de alto desempenho e escaláveis, com foco no usuário.",
+    "button": "Saiba mais"
   },
   "Portfolio": {
     "title": "Serviços de desenvolvimento web e UX/UI Design",
@@ -40,16 +47,9 @@
     "description": "Conheça a minha agência especializada em desenvolvimento de websites, landing pages, e-commerce. Design de interface do usuário de alto padrão. Confira alguns dos projetos que tive o prazer de desenvolver."
   },
 
-  "Cta": {
-    "title": "Transforme sua visão em realidade digital",
-    "sub-title": "Vamos criar algo extraordinário juntos!",
-    "description": "Está pronto para levar sua presença digital ao próximo nível? Como especialista em UX/UI Design e desenvolvimento frontend, estou aqui para transformar suas ideias em experiências de usuário memoráveis. Juntos, podemos criar um site ou aplicação que não só atenda às necessidades dos seus usuários, mas também surpreenda e encante.",
-    "button": "Me Contrate"
-  },
-
   "Contact": {
-    "title": "Contato",
-    "description": "Precisa de ajuda? Tem alguma sugestão ou falha no site? Envie-me uma mensagem. Eu estarei disponível para responder em breve!"
+    "title": "contact",
+    "description": "Estou interessado em oportunidades freelance. No entanto, se você tiver outra solicitação ou dúvida, não hesite em entrar em contato comigo"
   },
 
   "AboutPage": {

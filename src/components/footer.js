@@ -13,7 +13,7 @@ export default function Footer() {
           priority
         />
         <span className="text-zinc-500 text-sm tracking-tighter font-medium text-center">
-          © 2024 - Desenvolvidor por Renato Khael usando Next.js e Tailwind CSS
+          © 2024 - Design by Renato Khael using only Next.js and Tailwind CSS
         </span>
       </Link>
     </footer>

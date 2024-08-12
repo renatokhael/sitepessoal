@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { GrLanguage } from "react-icons/gr";
+import { LuLanguages } from "react-icons/lu";
 import { usePathname, useRouter } from "@/navigation";
 
 export default function LanguageToggle() {
@@ -23,12 +23,12 @@ export default function LanguageToggle() {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <GrLanguage className="text-2xl text-zinc-400 ml-5 mr-2" />
+    <div className="max-w-[180px] flex justify-center items-center border border-[#003339]">
+      <LuLanguages className=" text-zinc-400 ml-4" />
       <select
         value={language}
         onChange={handleLocaleChange}
-        className="px-4 py-2 border border-[#003339] bg-[#00292E] text-white rounded-lg focus:outline-none"
+        className="px-4 py-2 text-sm  bg-[#00292E] text-white rounded-lg focus:outline-none"
       >
         <option value="en">English</option>
         <option value="pt">Português</option>
