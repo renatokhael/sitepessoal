@@ -4,8 +4,8 @@ export function AlertTop() {
   const t = useTranslations("Hero");
 
   return (
-    <div className="containenr flex justify-center my-10 ">
-      <div class=" p-2 bg-[#003339] min-w-[350px] rounded-full items-center text-indigo-100 leading-none lg:rounded-full  lg:inline-flex">
+    <div className="containenr hidden lg:flex justify-center my-10 ">
+      <div class=" p-2 bg-[#003339] rounded-full items-center text-indigo-100 leading-none lg:rounded-full  lg:inline-flex">
         <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">
           Freelancer
         </span>

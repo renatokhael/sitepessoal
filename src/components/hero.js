@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 export function Hero() {
   const t = useTranslations("Hero");
   return (
-    <section className="relative min-h-[500px]">
+    <section className="relative min-h-[500px] p-10">
       {/* <Image
         src="/hero/hero-bg.png"
         alt="Hero Background"
