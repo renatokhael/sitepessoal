@@ -20,6 +20,49 @@ export default function ProjectSection() {
         "/projects/isolve/04.png",
       ],
       textButton: t("0.textButton"),
+      href: "https://isolve.quintoandar.com.br/",
+    },
+
+    {
+      image: "/projects/quintoandar/capa.png",
+      title: t("1.title"),
+      shortDescription: t("1.shortDescription"),
+      longDescription: t("1.longDescription"),
+      longDescription: t("1.longDescription"),
+      myWork: t("1.myWork"),
+      images: ["/projects/quintoandar/01.png", "/projects/quintoandar/02.png"],
+      textButton: t("0.textButton"),
+      href: "https://www.quintoandar.com.br/",
+    },
+    {
+      image: "/projects/instacarro/capa.png",
+      title: t("2.title"),
+      shortDescription: t("2.shortDescription"),
+      longDescription: t("2.longDescription"),
+      longDescription: t("2.longDescription"),
+      myWork: t("2.myWork"),
+      images: [
+        "/projects/instacarro/01.png",
+        "/projects/instacarro/02.png",
+        "/projects/instacarro/03.png",
+      ],
+      textButton: t("2.textButton"),
+      href: "https://www.instacarro.com/veiculos",
+    },
+    {
+      image: "/projects/ewally/capa.png",
+      title: t("3.title"),
+      shortDescription: t("3.shortDescription"),
+      longDescription: t("3.longDescription"),
+      longDescription: t("3.longDescription"),
+      myWork: t("3.myWork"),
+      images: [
+        "/projects/instacarro/01.png",
+        "/projects/instacarro/02.png",
+        "/projects/instacarro/03.png",
+      ],
+      textButton: t("2.textButton"),
+      href: "https://www.instacarro.com/veiculos",
     },
   ];
 
@@ -36,9 +79,9 @@ export default function ProjectSection() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-16">
         <Card {...projects[0]} />
-        <Card />
-        <Card />
-        <Card />
+        <Card {...projects[1]} />
+        <Card {...projects[2]} />
+        <Card {...projects[3]} />
       </div>
     </Section>
   );

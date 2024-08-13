@@ -1,4 +1,6 @@
+import { Link } from "@/navigation";
 import { useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Modal({
   isOpen,
@@ -8,6 +10,7 @@ export default function Modal({
   longDescription,
   myWork,
   textButton,
+  href,
 }) {
   if (!isOpen) return null;
 
@@ -23,7 +26,7 @@ export default function Modal({
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90 z-50">
-      <div className=" border border-orange bg-gradient-to-r from-[#003339] to-black w-[1280px] min-h-[450px]  overflow-hidden grid grid-cols-2">
+      <div className=" border border-orange bg-gradient-to-r from-[#003339] to-black w-[1366px] min-h-[400px]  overflow-hidden grid grid-cols-2">
         {/* Left Side - Image Slider */}
         <div className="relative">
           <img
@@ -33,13 +36,13 @@ export default function Modal({
           />
           <button
             onClick={prevImage}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2"
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-orange text-white p-2"
           >
             {"<"}
           </button>
           <button
             onClick={nextImage}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2"
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-orange  text-white p-2"
           >
             {">"}
           </button>
@@ -59,12 +62,13 @@ export default function Modal({
             <p className=" mb-6 text-zinc-400">{longDescription}</p>
             <p className=" mb-6 text-zinc-400 bg-background p-5">{myWork}</p>
           </div>
-          <button
-            onClick={onClose}
-            className="border-4 border-orange py-2 px-4 text-white hover:text-orange "
+          <Link
+            href={href}
+            className="border-4 border-orange py-2 px-4 text-white hover:text-orange hover:font-bold flex justify-center items-center"
           >
             {textButton}
-          </button>
+            <FaArrowRight className="ml-4" />
+          </Link>
         </div>
       </div>
     </div>

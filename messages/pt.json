@@ -14,10 +14,31 @@
 
   "Projects": [
     {
-      "title": "iSolve Plataforma de Gestão de Financiamento",
+      "title": "iSolve Gestão de Financiamento",
       "shortDescription": "Projeto criado com Vue.js, Sass e TypeScript.",
-      "longDescription": "O iSolve é uma plataforma de gestão de financiamento imobiliário e home equity que atende mais de 1.500 imobiliárias e consultores independentes. Foi desenvolvido usando Vue.js, Vuetify, Vuex, Vuetify, Sass e TypeScript, usando diversos recursos como JWT, OAuth, WebSocket. ",
+      "longDescription": "O iSolve é uma plataforma de gestão de financiamento imobiliário e home equity que atende mais de 1.500 imobiliárias e consultores independentes. Foi desenvolvido usando Vue.js, Vuetify, Vuex, Vuetify, Sass e TypeScript, usando diversos recursos como JWT, OAuth, WebSocket, OCR. ",
       "myWork": "Fui responsável pelo desenvolvimento da Interface de Usuário e pela implementação da maioria das funcionalidades. Além disso, colaborei na criação do Design System, assim como na definição da arquitetura e na realização dos testes.",
+      "textButton": "Acessar projeto"
+    },
+    {
+      "title": "QuintoAndar Fluxo de Crédito",
+      "shortDescription": "Projeto utilizando React, Redux e TypeScript",
+      "longDescription": "O fluxo de crédito do usuário é uma das principais experiências do usuário final, abrangendo todo o processo de solicitação e análise de crédito, autenticação de documentos e avaliação do perfil do usuário. Trata-se de um micro front-end, desenvolvido em React, Redux, TypeScript.",
+      "myWork": "Atuei como principal desenvolvedor Front-End da Squad. Fui responsável por implementar o fluxo de autenticação de documentos, usando SDKs esternos como Unico e IDWall, tambem fui responsável por criar um dashboard que centralizou todos os erros de todas as aplicações do nosso fluxo, para melhorar o Crash Free, criando um fluxo impecável para o usuário final. ",
+      "textButton": "Acessar projeto"
+    },
+    {
+      "title": "Guia de Preço Instacarro",
+      "shortDescription": "Projeto utilizando React, Redux e TypeScript",
+      "longDescription": "A InstaCarro é uma plataforma online que está revolucionando a indústria de carros usados no Brasil, ajudando a pessoas que querem vender seus carros o mais rápido possível. O Guia de Preços foi desenvolvido usando React, ContextAPI, Custom Hooks, React Query e TypeScript.",
+      "myWork": "Fui responsável pela definição da arquitetura, criação do protótipo em colaboração com o time de produtos e desenvolvimento de uma SPA (Single Page Application) utilizando React e TypeScript, com integração a diversos microsserviços. Além disso, minha missão incluiu a otimização de performance, aplicando configurações avançadas para garantir a melhor experiência possível ao usuário final.",
+      "textButton": "Acessar projeto"
+    },
+    {
+      "title": "Ewally Aplicação Web Responsiva",
+      "shortDescription": "Projeto utilizando WordPress, ACF, Hooks, WP-CLI",
+      "longDescription": "A Ewally oferece Soluções financeiras inovadoras, ágeis e seguras para a sua empresa. O Web App é desenvolvido em HTML, CSS, WordPress como CMS.",
+      "myWork": "Fui responsável transformar o protótipo criado pela UX/UI em um tema leve e performático usando WordPress, HTML, CSS, Hooks, etc...",
       "textButton": "Acessar projeto"
     }
   ],

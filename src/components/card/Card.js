@@ -11,6 +11,7 @@ export default function Card({
   longDescription,
   myWork,
   textButton,
+  href,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
@@ -23,6 +24,7 @@ export default function Card({
         myWork={myWork}
         images={images}
         textButton={textButton}
+        href={href}
       />
       <div className="border-2 border-orange min-h-[400px] min-w-[300px] flex flex-col">
         <div className="h-[200px] bg-zinc-900 flex-shrink-0">

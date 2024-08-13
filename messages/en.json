@@ -18,6 +18,27 @@
       "longDescription": "iSolve is a real estate financing and home equity management platform that serves more than 1,500 real estate agencies and independent consultants. It was developed using Vue.js, Vuetify, Vuex, Vuetify, Sass and TypeScript, using various resources such as JWT, OAuth, WebSocket. ",
       "myWork": "I was responsible for developing the User Interface and implementing most of the features. Additionally, I collaborated on the creation of the Design System, as well as defining the architecture and conducting tests.",
       "textButton": "Access project"
+    },
+    {
+      "title": "QuintoAndar Credit Experience",
+      "shortDescription": "Project using React, Redux and TypeScript",
+      "longDescription": "The user credit flow is one of the main end-user experiences, covering the entire credit application and analysis process, document authentication and user profile evaluation. It is a micro front-end, developed in React, Redux, TypeScript.",
+      "myWork": "I worked as Squad's main Front-End developer. I was responsible for implementing the document authentication flow, using external SDKs such as Unico and IDWall, I was also responsible for creating a dashboard that centralized all errors from all applications in our flow, to improve Crash Free, creating an impeccable flow for the end user.",
+      "textButton": "Access project"
+    },
+    {
+      "title": "Instacarro Price Guide",
+      "shortDescription": "InstaCarro is an online platform that is revolutionizing...",
+      "longDescription": "InstaCarro is an online platform that is revolutionizing the used car industry in Brazil, helping people who want to sell their cars as quickly as possible. The Pricing Guide was developed using React, ContextAPI, Custom Hooks, React Query and TypeScript.",
+      "myWork": "I was responsible for defining the architecture, creating the prototype in collaboration with the product team and developing a SPA (Single Page Application) using React and TypeScript, with integration to several microservices. Furthermore, my mission included optimizing performance, applying advanced settings to ensure the best possible experience for the end user.",
+      "textButton": "Acessar projeto"
+    },
+    {
+      "title": "Ewally Aplicação Web Responsiva",
+      "shortDescription": "Projeto utilizando WordPress, ACF, Hooks, WP-CLI",
+      "longDescription": "A Ewally oferece Soluções financeiras inovadoras, ágeis e seguras para a sua empresa. O Web App é desenvolvido em HTML, CSS, WordPress como CMS.",
+      "myWork": "Fui responsável transformar o protótipo criado pela UX/UI em um tema leve e performático usando WordPress, HTML, CSS, Hooks, etc...",
+      "textButton": "Acessar projeto"
     }
   ],
 
