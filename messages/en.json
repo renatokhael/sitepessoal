@@ -10,6 +10,17 @@
     "description": "For over 10 years combining design and programming to transform ideas into innovative digital products.",
     "button": "Presentation"
   },
+
+  "Projects": [
+    {
+      "title": "iSolve Funding Management Platform",
+      "shortDescription": "Project created with Vue.js, Sass and TypeScript.",
+      "longDescription": "iSolve is a real estate financing and home equity management platform that serves more than 1,500 real estate agencies and independent consultants. It was developed using Vue.js, Vuetify, Vuex, Vuetify, Sass and TypeScript, using various resources such as JWT, OAuth, WebSocket. ",
+      "myWork": "I was responsible for developing the User Interface and implementing most of the features. Additionally, I collaborated on the creation of the Design System, as well as defining the architecture and conducting tests.",
+      "textButton": "Access project"
+    }
+  ],
+
   "Features": [
     {
       "title": "Portfolio",

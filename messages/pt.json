@@ -12,6 +12,16 @@
     "button": "Apresentação"
   },
 
+  "Projects": [
+    {
+      "title": "iSolve Plataforma de Gestão de Financiamento",
+      "shortDescription": "Projeto criado com Vue.js, Sass e TypeScript.",
+      "longDescription": "O iSolve é uma plataforma de gestão de financiamento imobiliário e home equity que atende mais de 1.500 imobiliárias e consultores independentes. Foi desenvolvido usando Vue.js, Vuetify, Vuex, Vuetify, Sass e TypeScript, usando diversos recursos como JWT, OAuth, WebSocket. ",
+      "myWork": "Fui responsável pelo desenvolvimento da Interface de Usuário e pela implementação da maioria das funcionalidades. Além disso, colaborei na criação do Design System, assim como na definição da arquitetura e na realização dos testes.",
+      "textButton": "Acessar projeto"
+    }
+  ],
+
   "Features": [
     {
       "title": "Portfóllio",

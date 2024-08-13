@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         orange: "#ff5748",
+        background: "#003339",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
