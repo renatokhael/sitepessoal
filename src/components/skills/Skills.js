@@ -2,10 +2,26 @@ import Section from "../section";
 import Image from "next/image";
 
 export default function SkillSection() {
-  const languages = ["HTML", "CSS3", "JavaScript", "TypeScript"];
+  const languages = ["HTML", "CSS3", "JavaScript", "TypeScript", "PUG"];
   const framework = ["React", "Vue.js", "Strapi", "Next", "React Native"];
-  const ui_framework = ["Tailwind", "Bootstrap", "Material UI"];
-  const tools = ["Webpack", "Vite", "ESBuild", "Jest", "Cypress"];
+  const ui_framework = [
+    "Tailwind",
+    "Bootstrap",
+    "Material UI",
+    "Vuetify",
+    "Styled Components",
+    "Chakra UI",
+  ];
+  const tools = [
+    "Webpack",
+    "Vite",
+    "ESBuild",
+    "RSBuild",
+    "RSPack",
+    "Module Federation",
+    "Jest",
+    "Cypress",
+  ];
 
   function Card({ children, title }) {
     return (

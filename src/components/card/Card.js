@@ -9,6 +9,8 @@ export default function Card({
   title,
   shortDescription,
   longDescription,
+  cardButton,
+  titleMyWork,
   myWork,
   textButton,
   href,
@@ -21,6 +23,7 @@ export default function Card({
         onClose={() => setIsModalOpen(false)}
         title={title}
         longDescription={longDescription}
+        titleMyWork={titleMyWork}
         myWork={myWork}
         images={images}
         textButton={textButton}
@@ -42,7 +45,7 @@ export default function Card({
             onClick={() => setIsModalOpen(true)}
             className="text-white flex justify-center items-center tracking-tighter hover:text-orange"
           >
-            Veja o projeto
+            {cardButton}
             <FaArrowRight className="ml-4" />
           </button>
         </div>

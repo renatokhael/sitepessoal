@@ -11,34 +11,48 @@
     "button": "Presentation"
   },
 
+  "Modal": {
+    "title1": "Resumo",
+    "title2": "Minhas Responsabilidades",
+    "button": "Acessar Projeto"
+  },
+
   "Projects": [
     {
-      "title": "iSolve Funding Management Platform",
-      "shortDescription": "Project created with Vue.js, Sass and TypeScript.",
+      "title": "iSolve | SPA Platform",
+      "shortDescription": "iSolve is a real estate financing and home equity management platform.",
       "longDescription": "iSolve is a real estate financing and home equity management platform that serves more than 1,500 real estate agencies and independent consultants. It was developed using Vue.js, Vuetify, Vuex, Vuetify, Sass and TypeScript, using various resources such as JWT, OAuth, WebSocket. ",
-      "myWork": "I was responsible for developing the User Interface and implementing most of the features. Additionally, I collaborated on the creation of the Design System, as well as defining the architecture and conducting tests.",
+      "cardButton": "Project Details",
+      "titleMyWork": "My Responsibilities",
+      "myWork": "I was responsible for creating the platform's complex user flow and integrations with microservices, defining the best data structures to optimize request performance. I developed most of the user interface components and collaborated in the creation of the Design System. Furthermore, I participated in defining the architecture and carrying out tests, using Mocha, Chai and Cypress.",
       "textButton": "Access project"
     },
     {
-      "title": "QuintoAndar Credit Experience",
-      "shortDescription": "Project using React, Redux and TypeScript",
+      "title": "QuintoAndar | PWA Platform",
+      "shortDescription": "The user credit flow is one of the main end-user experiences",
       "longDescription": "The user credit flow is one of the main end-user experiences, covering the entire credit application and analysis process, document authentication and user profile evaluation. It is a micro front-end, developed in React, Redux, TypeScript.",
-      "myWork": "I worked as Squad's main Front-End developer. I was responsible for implementing the document authentication flow, using external SDKs such as Unico and IDWall, I was also responsible for creating a dashboard that centralized all errors from all applications in our flow, to improve Crash Free, creating an impeccable flow for the end user.",
+      "cardButton": "Project Details",
+      "titleMyWork": "My Responsibilities",
+      "myWork": "Implemented advanced anti-fraud features in the WebApp's credit flow, allowing user authentication via selfie, document verification and data extraction via OCR. Additionally, I optimized all micro front-ends related to the credit experience, significantly increasing the quality and usability of the WebApp.",
       "textButton": "Access project"
     },
     {
-      "title": "Instacarro Price Guide",
-      "shortDescription": "InstaCarro is an online platform that is revolutionizing...",
+      "title": "Instacarro | SSR Platform",
+      "shortDescription": "InstaCarro is an online used car sales platform in Brazil.",
       "longDescription": "InstaCarro is an online platform that is revolutionizing the used car industry in Brazil, helping people who want to sell their cars as quickly as possible. The Pricing Guide was developed using React, ContextAPI, Custom Hooks, React Query and TypeScript.",
+      "cardButton": "Project Details",
+      "titleMyWork": "My Responsibilities",
       "myWork": "I was responsible for defining the architecture, creating the prototype in collaboration with the product team and developing a SPA (Single Page Application) using React and TypeScript, with integration to several microservices. Furthermore, my mission included optimizing performance, applying advanced settings to ensure the best possible experience for the end user.",
-      "textButton": "Acessar projeto"
+      "textButton": "Access project"
     },
     {
-      "title": "Ewally Aplicação Web Responsiva",
-      "shortDescription": "Projeto utilizando WordPress, ACF, Hooks, WP-CLI",
-      "longDescription": "A Ewally oferece Soluções financeiras inovadoras, ágeis e seguras para a sua empresa. O Web App é desenvolvido em HTML, CSS, WordPress como CMS.",
-      "myWork": "Fui responsável transformar o protótipo criado pela UX/UI em um tema leve e performático usando WordPress, HTML, CSS, Hooks, etc...",
-      "textButton": "Acessar projeto"
+      "title": "Ewally | Web Application",
+      "shortDescription": "Ewally offers innovative, agile and secure financial solutions for your company.",
+      "longDescription": "Ewally offers innovative, agile and secure financial solutions for your company. The Web App is developed using HTML, CSS, WordPress as CMS.",
+      "cardButton": "Project Details",
+      "titleMyWork": "My Responsibilities",
+      "myWork": "I transformed the prototype developed by the UX/UI team into a highly lightweight and performant WordPress theme. I used advanced features, such as customizing plugins and themes, efficient application of actions and filter hooks, and management through wp-cli. I also configured SEO best practices with YoastSEO and was responsible for keeping all WordPress plugins and versions up to date, ensuring compatibility and optimal performance of the application.",
+      "textButton": "Access project"
     }
   ],
 
