@@ -1,16 +1,14 @@
 import Image from "next/image";
 
 import Section from "@/components/section";
-import { Link } from "@/navigation";
-import { IoSchool } from "react-icons/io5";
 
-export default function Projects() {
+export default function About() {
   return (
     <Section>
       <div className="flex items-center pt-32">
         <h1 className="text-zinc-200 text-2xl ">
           <span className="text-orange">/</span>
-          About me
+          about
         </h1>
       </div>
 

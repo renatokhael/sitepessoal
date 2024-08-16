@@ -1,3 +1,4 @@
+import Section from "@/components/section";
 import Image from "next/image";
 
 const experiences = [
@@ -15,7 +16,7 @@ const experiences = [
     image: "/quintoandar.jpeg",
     cargo: "Engenheiro de Software",
     empresa: "QuintoAndar",
-    data: "Agosto de 2021 - Dezembro de 2023",
+    data: "Outubro de 2021 - Dezembro de 2023",
     descricao:
       "Atuei como Engenheiro de Software na squad Credit Experience, na tribo Fintech. Trabalhando principalmente com microsserviços usando Java com Spring, e micro front-ends usando React, Redux e Typescript. Ci/CD, monitoramento/observabilidade, deploy na AWS.",
   },
@@ -24,7 +25,7 @@ const experiences = [
     image: "/atta.jpeg",
     cargo: "Engenheiro Front-End",
     empresa: "Atta Franchising",
-    data: "Janeiro de 2021 - Agosto de 2021",
+    data: "Junho de 2021 - Outubro de 2021",
     descricao:
       "Líderei a criação de interfaces de usuário utilizando Vue.js, Nuxt.js, Typescript, HTML, CSS com pré-processadores SASS/SCSS. Contribui para a criação do Design System usando StoryBook. Responsável por testes automatizados, code review, e deploy na AWS.",
   },
@@ -33,7 +34,7 @@ const experiences = [
     image: "/kavak.jpeg",
     cargo: "Desenvolvedor Front-End",
     empresa: "Kavak",
-    data: "Setembro de 2020 - Dezembro de 2020",
+    data: "Abril de 2021 - Junho de 2021",
     descricao:
       "Trabalhei em projetos usando React, Typescript e Node.js. Colaborei ativamente com a criação da interface de usuário do Guia de Preços, um fluxo estratégico da aplicação. Testes unitários, e2e e integração, CI/CD, deploy no GCP.  ",
   },
@@ -42,12 +43,21 @@ const experiences = [
     image: "/instacarro.jpeg",
     cargo: "Desenvolvedor Front-End",
     empresa: "Instacarro.com",
-    data: "Janeiro de 2020 - Agosto de 2020",
+    data: "Janeiro de 2021 - Abril de 2021",
     descricao:
       "Líderei a criação de interfaces de usuário para o SPA Guia Instacarro, utilizando NextJS, React, TypeScript, TailwindCSS e Node.js. Fui responsável por manter a aplicação WordPress, bem como todas as configurações de SEO para o Blog da empresa. CI/CD, Deploy na GCP.",
   },
   {
     id: 5,
+    image: "/tatil.jpeg",
+    cargo: "Desenvolvedor Front-End",
+    empresa: "Tatil Design",
+    data: "Junho de 2020 - Dezembro de 2020",
+    descricao:
+      "Trabalhei principalmente com React, Next, TypeScript e WordPress, contribuí em projetos WP Headless (utilizando action & filter hooks, wp-cli, guttenbeg blocks), para grandes clientes como Canal Brasil. Trabalhei implementando novas funcionalidades no blog Asterisco.",
+  },
+  {
+    id: 6,
     image: "/somai.jpeg",
     cargo: "Desenvolvedor Web",
     empresa: "Somai EdTech",
@@ -59,14 +69,14 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="container mx-auto">
+    <Section>
       <div className="flex items-center pt-32">
         <h1 className="text-zinc-200 text-2xl ">
           <span className="text-orange">/</span>
-          experiences
+          experience
         </h1>
       </div>
-      <div className="mx-auto grid lg:grid-cols-2 gap-4 mt-10">
+      <div className="containermx-auto grid lg:grid-cols-2 gap-4 mt-10">
         {experiences.map((experience) => (
           <div key={experience.id} className="border-2 border-border p-10 ">
             <div className="flex flex-row">
@@ -81,10 +91,10 @@ export default function Experience() {
                 />
               </div>
               <div className="basis-2/3">
-                <h1 className="text-zinc-200 text-2xl font-semibold">
+                <h1 className="text-zinc-200 text-2xl font-semibold tracking-tighter">
                   {experience.cargo}
                 </h1>
-                <p className="text-orange font-semibold text-xl ">
+                <p className="text-orange font-semibold text-xl tracking-tighter ">
                   {experience.empresa}
                 </p>
                 <p className="text-zinc-500 font-semibold ">
@@ -93,12 +103,12 @@ export default function Experience() {
               </div>
             </div>
 
-            <p className="text-zinc-300 text-medium mt-4">
+            <p className="text-zinc-300 text-medium mt-4 tracking-tighter">
               {experience.descricao}
             </p>
           </div>
         ))}
       </div>
-    </section>
+    </Section>
   );
 }
