@@ -13,7 +13,7 @@ export function Header() {
 
     {
       name: t("experience"),
-      href: "/about",
+      href: "/experience",
     },
     {
       name: t("projects"),

@@ -25,7 +25,7 @@ export default function AboutSection() {
           <h1 className="text-zinc-200 text-5xl tracking-tighter max-w-2xl">
             {t("title")}
           </h1>
-          <p className="text-zinc-500 text-2xl mt-5 tracking-tighter font-medium max-w-2xl">
+          <p className="text-zinc-500 text-xl mt-5 tracking-tighter font-medium max-w-2xl">
             {t("description")}
           </p>
           <Link

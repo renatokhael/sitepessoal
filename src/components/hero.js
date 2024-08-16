@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 export function Hero() {
   const t = useTranslations("Hero");
   return (
-    <section className="min-h-[600px] pt-24 bg-gradient-to-r from-[#003339] to-black">
+    <section className="min-h-[600px] pt-24 bg-gradient-to-r from-[#003339] to-black p-10">
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
           <div className=" min-h-[650px] flex flex-col justify-center ">

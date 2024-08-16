@@ -59,36 +59,46 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="container mx-auto grid lg:grid-cols-2 gap-4 mt-16">
-      {experiences.map((experience) => (
-        <div key={experience.id} className="bg-zinc-950 p-10 rounded-2xl">
-          <div className="flex flex-row">
-            <div className="basis-1/4">
-              <Image
-                src={experience.image}
-                alt="Vercel Logo"
-                width={80}
-                height={100}
-                priority
-                className="rounded-xl"
-              />
+    <section className="container mx-auto">
+      <div className="flex items-center pt-32">
+        <h1 className="text-zinc-200 text-2xl ">
+          <span className="text-orange">/</span>
+          experiences
+        </h1>
+      </div>
+      <div className="mx-auto grid lg:grid-cols-2 gap-4 mt-10">
+        {experiences.map((experience) => (
+          <div key={experience.id} className="border-2 border-border p-10 ">
+            <div className="flex flex-row">
+              <div className="basis-1/4">
+                <Image
+                  src={experience.image}
+                  alt="Vercel Logo"
+                  width={80}
+                  height={100}
+                  priority
+                  className="rounded-xl"
+                />
+              </div>
+              <div className="basis-2/3">
+                <h1 className="text-zinc-200 text-2xl font-semibold">
+                  {experience.cargo}
+                </h1>
+                <p className="text-orange font-semibold text-xl ">
+                  {experience.empresa}
+                </p>
+                <p className="text-zinc-500 font-semibold ">
+                  {experience.data}
+                </p>
+              </div>
             </div>
-            <div className="basis-2/3">
-              <h1 className="text-zinc-200 text-2xl font-semibold">
-                {experience.cargo}
-              </h1>
-              <p className="text-purple-700 font-semibold text-xl ">
-                {experience.empresa}
-              </p>
-              <p className="text-zinc-500 font-semibold ">{experience.data}</p>
-            </div>
-          </div>
 
-          <p className="text-zinc-300 text-medium mt-4">
-            {experience.descricao}
-          </p>
-        </div>
-      ))}
+            <p className="text-zinc-300 text-medium mt-4">
+              {experience.descricao}
+            </p>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

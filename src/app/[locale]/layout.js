@@ -26,7 +26,7 @@ export default function RootLayout({ children, params: { locale } }) {
         <link rel="icon" href="/icon.png" sizes="any" />
       </head>
       <body className={fira.className}>
-        <main className="bg-[#00292E]  min-h-screen ">
+        <main className="bg-gradient-to-r from-[#003339] to-black min-h-screen ">
           <Header />
           {children}
 
