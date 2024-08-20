@@ -4,12 +4,13 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/navigation";
 
 import { FaArrowRight } from "react-icons/fa";
+import Section from "../section";
 
 export function Hero() {
   const t = useTranslations("Hero");
   return (
-    <section className="min-h-[600px] pt-24 bg-gradient-to-r from-[#003339] to-black p-10">
-      <div className="container mx-auto ">
+    <Section>
+      <div className="container mx-auto mt-24 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
           <div className=" min-h-[650px] flex flex-col justify-center ">
             <h1 className="text-zinc-200 text-5xl tracking-tighter max-w-2xl">
@@ -26,16 +27,21 @@ export function Hero() {
               <FaArrowRight />
             </Link>
           </div>
-          <div className="hidden lg:flex justify-end items-end">
+          <div className="hidden lg:flex flex-col justify-end items-end">
             <Image
-              src="/hero/symbol-bg.svg"
+              src="/hero/hero-imagem.svg"
               alt="Hero Background"
               width={600}
               height={600}
             />
+            <div className="h-10 w-full border-4 border-border flex justify-center items-center">
+              <span className="text-border flex justify-center items-center">
+                <FaArrowRight className="mr-5" /> I'm updating my portfolio...
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

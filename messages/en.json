@@ -17,6 +17,32 @@
     "button": "Acessar Projeto"
   },
 
+  "AboutPageSection": {
+    "title": "Who am I?",
+    "sub-title": "Sit back and history is coming.",
+    "text1": "My name is Renato, I'm a Web and Mobile Developer. Currently, I divide my time between programming, freelancing, and helping my wife take care of our daughter and two dogs. I'm passionate about reading, drawing, playing the guitar, watching series and films, playing games on the PC and, more recently, practicing jiu-jitsu.",
+    "text2": "With more than 8 years of experience in web development, my focus is to transform my creativity and knowledge into applications that really make a difference and impact users. I have helped several clients establish their online presence and I constantly strive to learn the latest technologies and frameworks to improve my work."
+  },
+
+  "AboutPageCarrer": {
+    "title": "How did I start?",
+    "sub-title": "Starting my career.",
+    "text1": "I took my first web design course in 2010, where I learned how to use Dreamweaver, Fireworks and Flash. At the time, I started creating websites using these tools, in addition to PHP. Initially, I used the XAMPP stack, configuring the Apache server, MySQL and uploading files via FTP (FileZilla, who remembers?). My first projects were for acquaintances and small businesses.",
+    "text2": "With the end of Flash (R.I.P.), I turned my attention to JavaScript to make pages more dynamic. I used jQuery a lot and, little by little, I started replacing PHP with JavaScript. It was in this process that I deepened my knowledge and mastery of this language, transforming the way I developed for the web."
+  },
+
+  "AboutPageFirstExperiences": {
+    "title": "Academic background",
+    "sub-title": "& First experiences",
+    "text1": "I graduated in Systems Analysis and Development in 2013, where I had my first contact with programming languages ​​such as C++ and Java. At first, I found everything quite complex, as it was a very different universe from what I was used to when creating web designs using construction tools. Concepts like pointers, vectors, and other low-level programming aspects were new and challenging to me.",
+    "text2": "But I studied a lot, I learned the fundamentals of Object Orientation, I even created my TCC using C#, I made an application for real estate management."
+  },
+
+  "Certifications": {
+    "title": "never stop learning",
+    "text:": "I believe that continuous learning is essential, which is why I am always updating myself in the area, participating in immersions and main bootcamps in Brazil."
+  },
+
   "Projects": [
     {
       "title": "iSolve | SPA Platform",

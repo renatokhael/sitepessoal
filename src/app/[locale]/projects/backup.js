@@ -100,14 +100,7 @@ const projects = [
 function Card({ name, description, image, url }) {
   return (
     <div className="max-w-[350px] rounded-2xl bg-[#003339] transition-colors hover:bg-zinc-950">
-      <Image
-        src={image}
-        alt="Vercel Logo"
-        width={350}
-        height={24}
-        priority
-        className="rounded-t-2xl"
-      />
+      <Image src={image} alt="Vercel Logo" width={350} height={24} priority />
       <div className="p-6">
         <h2
           className={` text-2xl font-semibold tracking-tighter text-zinc-300`}

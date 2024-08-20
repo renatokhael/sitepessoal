@@ -29,7 +29,7 @@ export default function AboutSection() {
             {t("description")}
           </p>
           <Link
-            href="/contact"
+            href="/about"
             className="max-w-[200px] mt-10 border-4 border-orange hover:text-orange hover:font-bold p-4 text-white text-xl flex justify-between items-center"
           >
             {t("button")}

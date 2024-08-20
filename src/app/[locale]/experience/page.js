@@ -67,13 +67,52 @@ const experiences = [
   },
 ];
 
+const freelances = [
+  {
+    id: 1,
+    image: "/stadiebit.png",
+    cargo: "Web Developer",
+    empresa: "Stadiebit Marketing Digital",
+    data: "Janeiro 2018 - Julho de 2021",
+    descricao:
+      "Atuei desenvolvendo diversos projetos de sites, landing pages e APIs. Utilizei PHP, WordPress, HTML, CSS, JavaScript, JQuery. ",
+  },
+  {
+    id: 2,
+    image: "/cloudesign.png",
+    cargo: "Desenvolvedor WordPress",
+    empresa: "Cloudesign",
+    data: "Dezembro de 2018 - Julho de 2019",
+    descricao:
+      "Atuei principalmente em projetos WordPress mais complexos, fazendo customização de plugins e temas, limpeza de sites infectados com vírus, restauração de backup.",
+  },
+  {
+    id: 3,
+    image: "/i9.png",
+    cargo: "Desenvolvedor WordPress",
+    empresa: "I9 Criações",
+    data: "Maio de 2018 - Dezembro de 2018",
+    descricao:
+      "Atuei principalmente em projetos WordPress mais complexos, fazendo customização de plugins e temas, limpeza de sites infectados com vírus, restauração de backup.",
+  },
+  {
+    id: 4,
+    image: "/ewally.png",
+    cargo: "Desenvolvedor WordPress",
+    empresa: "Ewally",
+    data: "Julho de 2020 - Dezembro de 2020",
+    descricao:
+      "Fui responsável pela criação completa do website da empresa. Utilizei PHP, WordPress, HTML, CSS, JavaScript, JQuery. ",
+  },
+];
+
 export default function Experience() {
   return (
     <Section>
       <div className="flex items-center pt-32">
         <h1 className="text-zinc-200 text-2xl ">
           <span className="text-orange">/</span>
-          experience
+          profissional experience
         </h1>
       </div>
       <div className="containermx-auto grid lg:grid-cols-2 gap-4 mt-10">
@@ -103,11 +142,52 @@ export default function Experience() {
               </div>
             </div>
 
-            <p className="text-zinc-300 text-medium mt-4 tracking-tighter">
+            <p className="text-zinc-400 text-medium mt-4 tracking-tighter">
               {experience.descricao}
             </p>
           </div>
         ))}
+      </div>
+      <div>
+        <div className="flex flex-col  pt-32">
+          <h1 className="text-zinc-200 text-2xl ">
+            <span className="text-orange">/</span>
+            others experiences
+          </h1>
+          <div className="containermx-auto grid lg:grid-cols-2 gap-4 mt-10 mb-32">
+            {freelances.map((freelance) => (
+              <div key={freelance.id} className="border-2 border-border p-10 ">
+                <div className="flex flex-row">
+                  <div className="basis-1/4">
+                    <Image
+                      src={freelance.image}
+                      alt="Vercel Logo"
+                      width={80}
+                      height={100}
+                      priority
+                      className="rounded-xl"
+                    />
+                  </div>
+                  <div className="basis-2/3">
+                    <h1 className="text-zinc-200 text-2xl font-semibold tracking-tighter">
+                      {freelance.cargo}
+                    </h1>
+                    <p className="text-orange font-semibold text-xl tracking-tighter ">
+                      {freelance.empresa}
+                    </p>
+                    <p className="text-zinc-500 font-semibold ">
+                      {freelance.data}
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-zinc-400 text-medium mt-4 tracking-tighter">
+                  {freelance.descricao}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </Section>
   );

@@ -5,17 +5,41 @@
     "projects": "projetos",
     "setup": "setup"
   },
-
   "Hero": {
-    "title": "Eu sou um Desenvolvedor Web e Engenheiro FrontEnd (Brasileiro)",
+    "title": "Eu sou um Desenvolvedor Web e Engenheiro FrontEnd.",
     "description": "Há mais de 10 anos combinando design e programação para transformar ideias em produtos digitais inovadores.",
     "button": "Apresentação"
   },
-
   "Modal": {
     "title1": "Resumo",
     "title2": "Minhas Responsabilidades",
     "button": "Acessar Projeto"
+  },
+
+  "AboutPageSection": {
+    "title": "Quem sou eu?",
+    "sub-title": "Senta que lá vem história.",
+    "text1": " Meu nome é Renato, sou Desenvolvedor Web e Mobile. Atualmente, divido meu tempo entre o trabalho, freelances, e ajudando minha esposa a cuidar da nossa filha e dos nossos dois cachorros. Sou apaixonado por ler, desenhar, tocar guitarra, assistir a séries e filmes, jogar no PC e, mais recentemente, praticar jiu-jitsu.",
+    "text2": "Com mais de 8 anos de experiência em desenvolvimento web, meu foco é transformar minha criatividade e conhecimento em aplicações que realmente fazem a diferença e impactam os usuários. Tenho ajudado diversos clientes a estabelecerem sua presença online e me empenho constantemente em aprender as mais novas tecnologias e frameworks para aprimorar meu trabalho."
+  },
+
+  "AboutPageCarrer": {
+    "title": "Como eu comecei?",
+    "sub-title": "Iniciando minha carreira",
+    "text1": "Fiz meu primeiro curso de web design em 2010, onde aprendi a usar Dreamweaver, Fireworks e Flash. Na época, comecei a criar sites utilizando essas ferramentas, além de PHP. Inicialmente, usei a stack XAMPP, configurando o servidor Apache, MySQL e realizando uploads de arquivos via FTP (FileZilla, quem se lembra?). Meus primeiros projetos foram para conhecidos e pequenos comércios.",
+    "text2": "Com o fim do Flash (R.I.P.), voltei minha atenção para o JavaScript, a fim de tornar as páginas mais dinâmicas. Utilizei bastante jQuery e, aos poucos, comecei a substituir o PHP por JavaScript. Foi nesse processo que aprofundei meus conhecimentos e domínio dessa linguagem, transformando a forma como eu desenvolvia para a web."
+  },
+
+  "AboutPageFirstExperiences": {
+    "title": "Formação Acadêmica",
+    "sub-title": "& Primeiras experiências",
+    "text1": "Me graduei em Análise e Desenvolvimento de Sistemas em 2013, onde tive meu primeiro contato com linguagens de programação como C++ e Java. No início, achei tudo bastante complexo, pois era um universo muito diferente daquele com o qual eu estava acostumado ao criar web designs usando ferramentas de construção. Conceitos como ponteiros, vetores e outros aspectos de programação de baixo nível eram novos e desafiadores para mim.",
+    "text2": "Mas estudei bastante, a aprendi os fundamentos de Orientação a Objetos, inclusive criei meu TCC usando C#, fiz uma aplicação para gestão de imobiliárias. "
+  },
+
+  "Certifications": {
+    "title": "never stop learning",
+    "text:": "Acredito que a aprendizagem contínua é essencial, por isso estou sempre me atualizando na área, participando de imersões e principais bootcamps do Brasil. "
   },
 
   "Projects": [
@@ -56,33 +80,27 @@
       "textButton": "Acessar projeto"
     }
   ],
-
   "Features": [
     {
       "title": "Portfóllio",
       "description": "Conheça alguns de meus projetos."
     },
-
     {
       "title": "Sobre ",
       "description": "Conheça um pouco da minha história."
     },
-
     {
       "title": "Stack",
       "description": "Tecnologias que eu utilizo."
     },
-
     {
       "title": "Experiência",
       "description": "Minhas experiências profissionais."
     }
   ],
-
   "About": {
     "section": "sobre",
     "title": "Olá! Me chamo Renato Khael",
-
     "description": "Trabalho com HTML5, CSS3 e JavaScript desde 2010 e, nos últimos 5 anos, tenho me especializado em React, Vue.js e TypeScript. Especializado também na criação de projetos em WordPress. Essa experiência me permite integrar design e desenvolvimento para criar aplicativos com foco no usuário.",
     "button": "Saiba mais"
   },
@@ -91,18 +109,10 @@
     "sub-title": "Transformando Visões em Realidade Digital",
     "description": "Conheça a minha agência especializada em desenvolvimento de websites, landing pages, e-commerce. Design de interface do usuário de alto padrão. Confira alguns dos projetos que tive o prazer de desenvolver."
   },
-
   "Contact": {
     "title": "contact",
     "description": "Estou interessado em oportunidades freelance. No entanto, se você tiver outra solicitação ou dúvida, não hesite em entrar em contato comigo"
   },
-
-  "AboutPage": {
-    "title": "Engenheiro de software apaixonado por UX/UI Design",
-    "sub-title": "Aprimorando a Navegação com Design Intuitivo",
-    "description": "Engenheiro de Software com foco em Frontend e UX/UI, combinando habilidades de design com um sólido conhecimento técnico. Com mais de 10 anos de experiência em HTML5, CSS3, JavaScript e mais de 5 anos trabalhando com React, Vue.js e TypeScript, estou posicionado de forma única para integrar design e desenvolvimento, criando aplicações performáticas e escaláveis focadas no usuário."
-  },
-
   "PortfolioPage": {
     "title": "Alguns de meus projetos abertodisponíveis no GitHub"
   }
